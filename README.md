@@ -8,3 +8,7 @@ node ./bin/pr-summary-lite.js HEAD~1 > PR_SUMMARY.md
 ```
 
 Use it locally, in GitHub Actions, or before asking an AI reviewer to inspect a change.
+
+## GitHub Actions Usage
+
+Run the CLI in CI and redirect output to a Markdown artifact, or paste the generated summary into a pull request body.
