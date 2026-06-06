@@ -1,0 +1,24 @@
+{
+  "name": "pr-summary-lite",
+  "version": "0.1.0",
+  "description": "Generate PR summaries from git diffs without CI lock-in.",
+  "type": "module",
+  "bin": {
+    "pr-summary-lite": "./bin/pr-summary-lite.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node ./bin/pr-summary-lite.js"
+  },
+  "keywords": [
+    "developer-tools",
+    "ai",
+    "cli",
+    "github"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
