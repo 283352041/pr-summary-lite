@@ -12,3 +12,7 @@ Use it locally, in GitHub Actions, or before asking an AI reviewer to inspect a 
 ## GitHub Actions Usage
 
 Run the CLI in CI and redirect output to a Markdown artifact, or paste the generated summary into a pull request body.
+
+## Local Review Habit
+
+Generate a summary before opening a PR. It gives reviewers a faster map of what changed and what deserves attention.
